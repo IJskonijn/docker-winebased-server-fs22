@@ -102,3 +102,9 @@ https://discord.gg/Ejz2MaXSNb
 
 # Legal disclaimer
 This Docker container is not endorsed by, directly affiliated with, maintained, authorized, or sponsored by [Giants Software](https://giants-software.com) and [Farming Simulator 22](https://farming-simulator.com/). The logo [Farming Simulator 22](https://giants-software.com) are © 2021 Giants Software.
+
+
+Docker build commands used:
+* docker build -t ijskonijn/docker-winebased-server-fs22-main .
+* docker tag docker-winebased-server-fs22-main:latest ijskonijn/docker-winebased-server-fs22-main:latest
+* docker push ijskonijn/docker-winebased-server-fs22-main:latest
