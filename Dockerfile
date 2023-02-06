@@ -1,5 +1,5 @@
-FROM wine-gameservers/docker-winebased-server-base:latest
-LABEL org.opencontainers.image.authors = "Toetje585 & IJskonijn"
+FROM toetje585/docker-winebased-server-base:latest
+LABEL org.opencontainers.image.authors = "Toetje585"
 LABEL org.opencontainers.image.source = "https://github.com/wine-gameservers/docker-winebased-server-base"
 
 # additional files
